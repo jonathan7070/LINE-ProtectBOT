@@ -1,5 +1,5 @@
 ### Attention
-create database name folder first
+Create folder with name ```database``` first.
 
 ### Requirment
 Python3 to up.
@@ -23,6 +23,7 @@ $ python3 login.py
 ### Authtoken
 Input your Token or change your Email and Password <a href="https://github.com/Vallofe/simple-protect/blob/main/token/login.json">here</a>
 
+### Contact us
 <table>
     <tbody>
         <tr>
