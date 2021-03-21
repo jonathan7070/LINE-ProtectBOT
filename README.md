@@ -1,9 +1,6 @@
 ### Attention
 Create folder with name ```database``` first.
 
-### Requirment
-Python3 to up.
-
 ### Installation
 ```python
 pip install linepy
