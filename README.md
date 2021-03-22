@@ -19,7 +19,7 @@ $ python3 login.py
 ```
 
 ### Authtoken
-Input your Token or Email and Password <a href="https://github.com/RendyTR/LINE-ProtectBOT/blob/main/token/login.json">here</a>
+Input your Token or Email <a href="https://github.com/RendyTR/LINE-ProtectBOT/blob/main/token/login.json">here</a>
 
 ### Contact us
 <table>
