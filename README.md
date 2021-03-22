@@ -1,5 +1,5 @@
-### Attention
-Create folder with name ```database``` first.
+### BOT UNOFFICIAL
+SIMPLE PROTECT BOT FOR LINE APP
 
 ### Installation
 ```python
@@ -13,12 +13,13 @@ pip install requests
 
 ### How to run ?
 ``` python
-$ git clone https://github.com/Vallofe/simple-protect
-$ cd simple-protect
+$ git clone https://github.com/RendyTR/LINE-ProtectBOT
+$ cd LINE-ProtectBOT
 $ python3 login.py
 ```
+
 ### Authtoken
-Input your Token or change your Email and Password <a href="https://github.com/Vallofe/simple-protect/blob/main/token/login.json">here</a>
+Input your Token or change your Email and Password <a href="https://github.com/RendyTR/LINE-ProtectBOT/blob/main/token/login.json">here</a>
 
 ### Contact us
 <table>
