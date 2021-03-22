@@ -190,8 +190,6 @@ class commands(threading.Thread):
             self.client.kickoutFromGroup(op.param1,[op.param2])
             self.invites.remove(op.param2)
 
-    def notif_leave_group(self, op):
-        pass
     def accept_group_invite(self, op):
         if self.settings["autopurge"]:
             group = self.client.getGroup(op.param1)
@@ -200,6 +198,7 @@ class commands(threading.Thread):
                 band = set(members).intersection(self.stats["banned"])
                 for ban in band:
                     self.client.kickoutFromGroup(op.param1,[ban])
+
     def receive_message(self, op):
         try:
             msg = op.message
@@ -402,10 +401,8 @@ class commands(threading.Thread):
                         
         except Exception as e:
             e = traceback.format_exc()
-            if "EOFError" in e:
-                pass
+            if "EOFError" in e:pass
             elif "ShouldSyncException" in e or "LOG_OUT" in e:
                 python3 = sys.executable
                 os.execl(python3, python3, *sys.argv)
-            else:
-                traceback.print_exc()
+            else:traceback.print_exc()
